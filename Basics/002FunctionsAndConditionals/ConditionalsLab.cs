@@ -59,3 +59,22 @@ namespace MyApplication
   }
 }
 
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int time = 25;
+      if (time < 18) 
+      {
+        Console.WriteLine("Hello everyone!");
+      } 
+      else 
+      {
+        Console.WriteLine("Goodbye people!");
+      }
+    }
+  }
+}
