@@ -9,13 +9,13 @@ public class Program
 		myOperator = new Operations();
 		
 		Console.WriteLine("Welcome");
-		myOperator.DoMath(10, 4);
-		myOperator.DoMath(20, 7);
-		myOperator.DoMath(30, 15);
-		myOperator.Compare(4,3);
-		myOperator.Compare(3,4);
+		myOperator.DoMath(1, 4);
+		myOperator.DoMath(20, 76);
+		myOperator.DoMath(10, 15);
+		myOperator.Compare(400,31);
+		myOperator.Compare(13,74);
 		myOperator.CheckPassword("SevenOF9");
-		myOperator.CheckPassword("OU812");
+		myOperator.CheckPassword("confused37");
 	}
 }
 
@@ -34,47 +34,11 @@ public class Operations {
 	}
 	
 	public void CheckPassword (string password) {
-		if(password == "OU812") {
-			Console.WriteLine("Correct Password");
+		if(password == "confused37") {
+			Console.WriteLine("Incorrect Password");
 		} else {
-			Console.WriteLine("Incorrect Password");	
+			Console.WriteLine("Correct Password");	
 		}
 	}
 }
-
-
-namespace MyApplication
-{
-  class Program
-  {
-    static void Main(string[] args)
-    {
-      if (20 > 18) 
-      if (19 < 20)
-      {
-        Console.WriteLine("20 is greater than 18");
-        Console.WriteLine("19 is less than 20");
-      }    
-    }
-  }
-}
-
-
-namespace MyApplication
-{
-  class Program
-  {
-    static void Main(string[] args)
-    {
-      int time = 25;
-      if (time < 18) 
-      {
-        Console.WriteLine("Hello everyone!");
-      } 
-      else 
-      {
-        Console.WriteLine("Goodbye people!");
-      }
-    }
-  }
-}
+ 
